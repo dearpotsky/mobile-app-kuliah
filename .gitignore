@@ -1,0 +1,62 @@
+# ============================================================
+# Android project root .gitignore
+# ============================================================
+
+# --- Gradle build outputs & caches ---
+.gradle/
+/build/
+**/build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# --- Android Studio / IntelliJ IDEA ---
+*.iml
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# --- Local machine config (JANGAN di-push!) ---
+local.properties
+keystore.properties
+
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V500
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Native build ---
+.externalNativeBuild/
+.cxx/
+
+# --- Signed APK / AAB output ---
+*.apk
+*.aab
+*.ap_
+
+# --- ProGuard / R8 mapping ---
+*.map
+mapping.txt
+seeds.txt
+usage.txt
+
+# --- Captures (Android Profiler, etc.) ---
+/captures/
+
+# --- Kotlin compiler cache ---
+.kotlin/
+
+# --- Editor-specific (VS Code) ---
+.vscode/
+
+# --- Kotlin scratch files ---
+*.kts.snap
+
+# --- Test results ---
+/test-results/
+/lint/
+/coverage/

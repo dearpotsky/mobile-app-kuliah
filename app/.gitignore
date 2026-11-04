@@ -1,0 +1,10 @@
+# ============================================================
+# Module-level (app/) .gitignore
+# ============================================================
+
+# Build output module
+/build/
+
+# Signed release keystore (RAHASIA - jangan pernah di-push!)
+*.jks
+*.keystore
